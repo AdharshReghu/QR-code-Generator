@@ -3,7 +3,7 @@ const btn = container.querySelector('button');
 const input = container.querySelector('form input');
 const image = container.querySelector('.Qr img');
 const qrsize='200x200'
-const url = 'http://api.qrserver.com/v1/create-qr-code/';
+const url = 'https://api.qrserver.com/v1/create-qr-code/';
 async function getImage (e){
     e.preventDefault();
     const inputValue = input.value;
